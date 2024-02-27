@@ -5,10 +5,15 @@
 }
 
 header {
-    padding: 16px 0;
+   
     background-color: #182c61 ;
     color: #ecf0f1;
     height:min-content;
+}
+
+header .container li a:hover {
+    background-color: #182c61;
+    color:gold
 }
 header , section h2, section h3, form button, header nav {
             font-family: "Bungee", sans-serif;
@@ -20,21 +25,9 @@ body {
 header nav li  {
     display:inline;
     margin-left: 16px;
-    color: #ecf0f1;
-    font-size: 18px;
-    
+    font-size: 18px;   
 }
 
-header nav button {
-    background-color: #182c61;
-    color: #fff;
-   
-   }
-
-header nav button:hover {
-    background-color: #2056ea;
-    color: gold;
-   }
 header nav li a {
     color: #ecf0f1;
     text-decoration: none;
@@ -111,10 +104,11 @@ form input, textarea, button {
     resize: none;
 }
 form button {
-    background-color: #182c61;
-    color: #fff
+    background-color:#182c61;
+    color: #fff;
     border: none;
     cursor:pointer;
+    font-size: 18px;
 
 }
 
@@ -130,5 +124,5 @@ footer {
     background-color: #182c61;
     color: #fff;
     padding: 16px, 0;
-    text-align: right;
+    text-align: center;
 }
